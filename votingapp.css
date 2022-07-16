@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.page {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.5)), url(/images/AdobeStock_188920612-scaled.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav {
+    text-align: right;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+
+.links {
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    color: white;
+}
+
+.link {
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.welcome {
+    padding-top: 150px;
+    font-family: 'The Nautigal', cursive;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+.vote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.button {
+    border-radius: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    font-size: 25px;
+    background: linear-gradient(rgb(66, 66, 176), rgb(32, 7, 89));
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }

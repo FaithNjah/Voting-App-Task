@@ -1,0 +1,16 @@
+
+.homePage{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(70, 70, 136);
+    color: white;
+    margin-top: 10px;
+    font-family: cursive;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.homePage a{
+    text-decoration: none;
+    color: white;
+}

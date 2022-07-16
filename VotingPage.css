@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: block;
+border: 0.3rem solid rgb(253, 252, 252);
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+height: 5rem;
+}
+
+.nav-bar-ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.94rem;
+    padding-top: 0.5rem;
+}
+
+.nav-bar-li{
+list-style: none;
+padding: 0.8rem;
+margin: 0.13rem;
+height: auto;
+width: auto;
+color:rgb(11, 71, 110) ;
+background-color:rgb(253, 254, 255) ;
+font-size: 0.94rem;
+font-family: cursive;
+border: 0.13rem solid rgb(11, 71, 110);
+border-radius: 0.63rem ;
+text-align: center;
+}
+
+
+#plan{
+    padding-top: 0.94rem;
+    padding: 0.3rem;
+    margin-top: 1.6rem;
+    height: 3.1rem;
+    width: 9.4rem;
+    color:rgb(11, 71, 110) ;
+    background-color:rgb(253, 254, 255) ;
+    font-size: 0.94rem;
+    font-family: cursive;
+    border: 0.13rem solid rgb(11, 71, 110);
+    border-radius: 0.63rem ;
+    text-align: center;
+    margin-right: 1.3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(76, 99, 126);
+    height: 70vh;
+    border: 0.3rem solid rgb(250, 226, 226);
+}
+
+.left-photo{
+    width: 22rem;
+    height: 50vh;
+    margin-top: 3.8rem;
+    font-size: 1.9rem;
+    background-color: rgb(231, 234, 245);
+    border-radius: 1.9rem;
+    border: 0.13rem solid rgb(250, 226, 226);
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.right-photo{
+    width: 22rem;
+    height: 50vh;
+    margin-top: 3.8rem;
+    font-size: 1.9rem;
+    background-color: rgb(231, 234, 245);
+    border-radius: 1.9rem;
+    border: 0.13rem solid rgb(250, 226, 226);
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 3.2rem;
+    border: 0.2rem solid rgb(2, 29, 51);
+}
+
+.num-one{
+    margin-top:0.3rem;
+    font-size: 3.75rem;
+    color: rgb(2, 29, 51);
+}
+
+.num-two{
+    margin-top:0.32rem;
+    font-size: 3.75rem;
+    color: rgb(2, 29, 51);
+}
+
+.name{
+    margin-top: 0.32rem;
+    margin-bottom: 0.63rem;
+    text-align: center;
+    color: rgb(2, 29, 51);
+}
+
+.button-one, .button-two{
+    background-color: rgb(2, 29, 51);
+    color: white;
+    height: 4.4rem;
+    width: 9.4rem;
+    border-radius: 3.2rem;
+    border: 0.125rem solid rgb(250, 226, 226);
+    margin: 0.63rem;
+    padding: auto;
+    margin-top: -0.5rem;
+    margin-bottom: auto;
+    font-size: 2rem;
+    text-align: center;
+    }
+ 
+    .left-photo .name {
+        white-space: nowrap;
+    }
+
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+        }
+
+         @media (width: 770px) {
+           .button-one, .button-two {
+            width: auto;
+            height: auto;
+            border-radius: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size-adjust: auto;
+           }
+           .name {
+            margin: auto;
+           }
+
+           .num-one, .num-two {
+            margin: auto;
+            font-size-adjust: auto;
+           } 
+         }
+          

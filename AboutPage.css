@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+  .container{
+      background-color: rgb(222, 222, 233);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+  .Homepage{
+      margin-top: 0.63rem;
+      margin-left: 0.63rem;
+      padding: 0.81rem 0.63rem;
+      border-radius: 0.13rem;
+      height:3.1rem;
+      width: 6.3rem;
+      background-color:rgb(11, 71, 110) ;
+      color: white;
+      font-family: cursive;
+    }
+
+  .about-us{
+     
+      margin-top: 0.63rem;
+      padding: 0.63rem;
+      color: rgb(11, 71, 110);
+    font-family: cursive;
+    }
+
+  .aboutUs{
+      color: rgb(11, 71, 110);
+      margin-bottom: 3.1rem;
+      text-align: center;
+     }
+
+  .meet-the-team{
+     margin-top: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: rgb(11, 71, 110);
+      font-family: cursive;
+     }
+
+  .team{
+      color:rgb(11, 71, 110) ;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      margin-top: 2.5rem;
+    }
+
+  img{
+      border: 0.06rem solid rgb(11, 71, 110);
+      border-radius: 3.1rem;
+      width: 3.1rem;
+      height: 3.1rem;
+    }
+
+  .team-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+     }
+  
+
+  p{
+      font-size: 0.63rem;
+  }
+
+  .footer{
+      margin-top: -30p1.9remx;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }

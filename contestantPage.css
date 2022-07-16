@@ -1,0 +1,47 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(76, 99, 126);
+    text-align: center;
+    color: rgb(0, 41, 77);
+    height: 100vh;
+}
+img{
+    border-radius: 50px;
+    margin-top: 10px;
+    border: 3px solid rgb(2, 29, 51);
+    max-height:150px;
+    max-width: 200px;
+}
+h3{
+    background-color: rgb(2, 29, 51);
+    border-radius: 30px;
+    color: rgb(231, 234, 245);
+}
+nav {
+    text-align: right;
+    justify-content: space-between;
+    padding: 2% 4%;
+    background-color: rgb(2, 29, 51);
+    color: white;
+    height: 50px;
+}
+.links {
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+}
+.link {
+    padding-right: 12px;
+    cursor: pointer;
+    color: white;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    padding: 20px;
+}
